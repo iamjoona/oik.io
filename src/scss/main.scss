@@ -12,10 +12,9 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  font-family: georgia, serif;
   line-height: 1.6em;
   font-size: 16px;
-  font-style: italic;
+  font-family: 'Raleway', sans-serif;
 
   @include bp(mid) {
     font-size: 18px;
@@ -39,7 +38,7 @@ body {
 }
 
 header {
-  background: radial-gradient(circle, $text-color-bold 30%, $text-color-dark 80%);
+  background: #2b3a42;
   padding-top: 4em;
   padding-bottom: 10em;
   color: $body-color;
@@ -80,7 +79,6 @@ form {
 
   .btn {
     display: inline-block;
-    font-family: georgia, serif;
     font-style: italic;
     padding-left: 2em;
     padding-right: 2em;
@@ -119,6 +117,7 @@ footer {
 h1 {
   line-height: 1.4em;
   font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
   @include bp(mid) {
     font-size: 3em;
   }
