@@ -79,7 +79,7 @@ form {
 
   .btn {
     display: inline-block;
-    font-style: italic;
+    font-family: 'Raleway', sans-serif;
     padding-left: 2em;
     padding-right: 2em;
     padding-top: 0.4em;
@@ -91,7 +91,7 @@ form {
     border-radius: 4px;
     box-shadow: 0 2px 4px 0 $text-color-super-light;
     background-color: $text-color;
-    color: $body-color;
+    color: #ff541d;
 
     &:hover,
     &:focus {
