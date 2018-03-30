@@ -1,32 +1,7 @@
-![LinkyLinky screengrab](screenshot.jpg)
-
-
-# LinkyLinky
-
-A little URL shortener of your own.
-
-
-## Example
-
-[linkylinky.netlify.com](https://linkylinky.netlify.com)
-
-
-## Description
-
-This site provides a simple short URL generator for you to host on you own domain. It is not optimized for giant sites or commercial use, but would most likely be best suited for personal use or as an addition to a company site who might be generating a few hundred, or a few thousand short urls.
-
-The redirect rules it generates will be created on Netlify's intelligent CDN and so should be very fast at access time. The generation of new shortcodes will use a static site generation build step to populate and deploy a Netlify `_redirects` file.
-
-Any server side logic for the creation of unique shortcodes will take place in an AWS Lambda which will be created and managed from within Netlify thanks to [Netlify Functions](https://functions-beta--www.netlify.com/docs/lambda-functions/).
-
-
-## Get your own
-
-You can clone this repo to your own github account and create a new site on Netlify to make your own by clicking the _Deploy to Netlify button_ below.
+Based on the work by Phil Hawskworth:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/linkylinky)
 
-After you have create a news site on Netlify via the button above, you will then need to perform the configuration steps below.
 
 ## Configuration
 
