@@ -20,7 +20,7 @@ export function handler(event, context, callback) {
 
   // ensure that a protocol was provided
   if(destination.indexOf("://") == -1) {
-    destination = "http://" + destination;
+    destination = "https://" + destination;
   }
 
   // prepare a payload to post
